@@ -14,6 +14,6 @@ public class TestModernInterface implements ModernInterface{
 
         ModernInterface.multiplyTowNumber(3, 5);
 
-        Collections.
+
     }
 }

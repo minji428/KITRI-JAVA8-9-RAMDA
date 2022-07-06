@@ -1,5 +1,6 @@
 package kr.re.kitri.interfacedemo;
 
+@FunctionalInterface
 public interface ModernInterface {
 
     int MY_INT =5;
