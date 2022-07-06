@@ -20,6 +20,6 @@ public interface ModernInterface {
 
     // 자바9에서 하나 더 추가
     private void someMethod(){
-        System.out.println("Hello world!");
+        System.out.println("ModernInterface");
     }
 }
