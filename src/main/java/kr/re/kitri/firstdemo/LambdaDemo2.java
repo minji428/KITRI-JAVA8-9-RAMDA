@@ -1,6 +1,7 @@
 package kr.re.kitri.firstdemo;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class LambdaDemo2 {
@@ -10,9 +11,7 @@ public class LambdaDemo2 {
         );
 
         System.out.println(favoriteColors);
-
-        favoriteColors.sort((o1, o2) -> o1.length() - o2.length());
-
+        favoriteColors.sort(Comparator.comparingInt(String::length));
         System.out.println(favoriteColors);
     }
 }
